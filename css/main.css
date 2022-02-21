@@ -16,6 +16,7 @@ html {
     line-height: 1.4;
 }
 
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -25,12 +26,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #127bfc;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #3774be;
     text-shadow: none;
 }
 
@@ -86,7 +87,7 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
+    background: rgb(79, 160, 226);
     color: #000;
     padding: 0.2em 0;
 }
@@ -97,7 +98,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: rgb(87, 205, 226);
   height: 100%;
 }
 
@@ -110,9 +111,10 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,7 +122,7 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: rgb(87, 205, 226);
   height: 300px;
   width: 30%;
   display: flex;
